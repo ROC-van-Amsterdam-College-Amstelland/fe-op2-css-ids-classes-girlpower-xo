@@ -6,11 +6,7 @@ html, body{
 body{
     display: flex;
     flex-direction: column;
-}
-
-
-body{
-    background-color: blue;
+    background-color: red;
 }
 
 img{
@@ -18,3 +14,64 @@ img{
 }
 /* Einde aangeleverde code, laten staan, niet veranderen */
 /* Vul hieronder je eigen code */
+
+header {
+    width: 100%;
+    height: 20%;
+    background-color:palegreen;
+}
+
+main {
+    width: 100%;
+    height: 80%;
+    background-color:blueviolet;
+}
+
+footer {
+    width: 100%;
+    height: 20%;
+    background-color: yellow;
+}
+
+nav img {
+    margin: 20px;
+}
+
+main img {
+    width: 400px;
+}
+
+footer img {
+    border: 1px solid black;
+}
+
+header nav{
+    display: flex;
+    padding-left: 20px;
+} 
+
+nav ul li a {
+    text-decoration: none;
+}
+
+header ul li, footer ul li {
+    list-style-type: none;
+}
+
+div h1 {
+    font-size: 50px;
+    background-color: indianred;
+}
+
+ul li {
+    border: 1px dashed black;
+}
+
+h3 ~ p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img + ul, img ~ ul li {
+    color:yellow;
+    list-style-type: circle;
+}
