@@ -1,2 +1,40 @@
+header nav ul li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: tomato;
+    display: flex;
+    justify-content: center;
 
+}
 
+footer nav ul li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen;
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+
+header nav ul{
+    list-style-type: none;
+}
+footer nav ul{
+    list-style-type: none;
+}
+
+header{
+    height: 10%;
+    width: 100%;
+    background-color: darkturquoise;
+}
+
+main img{
+    height: 80%;
+    width: 100%;
+}
+footer{
+    height: 10%;
+    width: 100%;
+    background-color: darkturquoise;
+}
